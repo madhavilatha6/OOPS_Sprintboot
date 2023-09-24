@@ -1,0 +1,22 @@
+Travel Contrains
+
+    Single responsbility principle:
+
+        When you travel to another country, you might buy gifts or things for your loved ones. At the airport, the people working there have a specific job. Their job is to check all the things in your bags to make sure they're allowed in that country. If something isn't allowed, they take it out to keep everyone safe.
+
+    open/closed principle:
+
+        When you travel to a new country, you pack your stuff like clothes and passport. If you go to another country later, you add more clothes and things to your bag without taking out what you already packed. You're just adding, not changing what you already have.
+
+    Liskov Substitution principle:
+
+        When you plan a trip to a country, you pack essentials like visa documents, clothes, and your passport. Later, if you finish your work there and plan to go to another country, you check the weather. If the weather isn't favorable, you might change the location to a different country, but you won't completely replace the original country you planned to visit.
+
+    Interface segregation principle:
+
+        Imagine planning a trip. First, you gather essentials like visa, clothes, and passport. Later, if you finish one part of your trip and want to go somewhere else, you check the weather. If the weather doesn't suit your first plan, you might choose a different place. The idea is to stay on the move, adjusting your plans based on what's best, without giving up on exploring new countries
+
+    Dependency Inversion principle:
+
+        When preparing for a journey abroad, you initially focus on gathering essential items such as visa documents, clothes, and your passport. However, once you've completed your work in that country and wish to visit a specific place, you shift your attention. Here, the 'country' can be viewed as a higher-level dependency, and the 'special place' becomes a lower-level dependency, showcasing the application of the Dependency Inversion Principle in your travel scenario.
+
