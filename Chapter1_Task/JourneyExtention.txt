@@ -1,19 +1,22 @@
-Journey Extention
 
-Inheritence:
+2. Journey Extension: Imagine extending your Swiss journey to neighboring countries. How would you adapt
+your travel checklist? Relate this to the concept of inheritance and polymorphism in software design.
+##Journey Extention
 
-    Imagine planning a journey to Switzerland. You meticulously organize your travel documents, clothing, shoes, and essential items. However, halfway through, you decide to visit a neighboring country. In this scenario, you inherit the initial preparations for Switzerland, but you modify and add additional items tailored to the new destination.
-        Attributes:
-	        The initial travel preparations (clothes, documents, shoes) represent the essential attributes for the Switzerland journey. When deciding to visit the neighboring country, these attributes are inherited but can be further modified and extended.
-        Methods:
-	        The specific details of how you prepared for the journey, like arranging clothes and gathering documents.
+    1.Inheritence:
+
+        --Imagine planning a journey to Switzerland. You meticulously organize your travel documents, clothing, shoes, and essential items. However, halfway through, you decide to visit a neighboring country. In this scenario, you inherit the initial preparations for Switzerland, but you modify and add additional items tailored to the new destination.
+            ##Attributes:
+                --The initial travel preparations (clothes, documents, shoes) represent the essential attributes for the Switzerland journey. When deciding to visit the neighboring country, these attributes are inherited but can be further modified and extended.
+            ##Methods:
+                --The specific details of how you prepared for the journey, like arranging clothes and gathering documents.
 
 
-Polymorphism:
+    2.Polymorphism:
 
-    During your journey planning, you organize all your stuff like clothes, shoes, and your passport. But when you plan to visit a neighboring country, you do some research. If the neighboring country is in the autumn season and it's cold, you pack some thinner clothes. Here, the term "cloths" is used in two different ways: referring to clothes in general and specifically to thinner clothes for autumn. This switching in meaning based on the situation is a kind of polymorphism
+        --During your journey planning, you organize all your stuff like clothes, shoes, and your passport. But when you plan to visit a neighboring country, you do some research. If the neighboring country is in the autumn season and it's cold, you pack some thinner clothes. Here, the term "cloths" is used in two different ways: referring to clothes in general and specifically to thinner clothes for autumn. This switching in meaning based on the situation is a kind of polymorphism
 
-        Attributes:
-	        A collection that initially holds all types of clothing for the journey.
-        Methods:
-	        A method that packs all types of clothes for the journey, considering various weather conditions.
+            ##Attributes:
+                --A collection that initially holds all types of clothing for the journey.
+            ##Methods:
+                --A method that packs all types of clothes for the journey, considering various weather conditions.
