@@ -1,0 +1,46 @@
+
+4. Customized Itinerary: Design a travel itinerary for a friend who has different preferences than you. How
+would you ensure that your base plan (OOP) can be adapted to fit their needs (Design Principles)?
+
+Customized Itinerary
+
+    ##OOPS concepts:
+
+        1.Abstraction:
+            
+                --When your friend is going on a trip to Switzerland, they need to take important things like clothes, shoes, passport, and documents. When packing these in the bag, anyone can easily see the clothes and shoes, but not the important documents like the passport. To keep these safe, your friend uses a lock to close and secure the bag. This way, they've encapsulated or protected their important things within the bag using a lock, making sure only they can access them.
+
+        2.Inheritance:
+            
+                --Imagine your friend is planning a trip to Switzerland. If they don't know about what visas they need, you ask your other friends who have been to different countries for their experiences. You gather all this valuable information and then share it with your friend, so they can prepare properly. In this story, you are like a messenger, passing on the important travel info you've 'inherited' from your other friends (the super class), to your friend going to Switzerland (the sub class).
+
+        3.Polymorphism:
+
+                --When your friend is planning the trip to Switzerland, you need to find out about the visa requirements. You approach various people who have been to different countries, but the key point is that regardless of who you ask, they all provide the same essential information about the visa requirements.The act of asking people represents the "many forms" (polymorphism), and the consistent response (providing the same visa requirements) regardless of the source (different people) aligns with the idea of polymorphism in programming.
+
+        4.Abstraction:
+
+                --Your friend needs to know the visa requirements for their trip to Switzerland. However, they don't need to know the specifics of who provided this information or why they provided it. All they need is the essential information to plan their trip.By abstracting the unnecessary details (who and why), you're simplifying the concept for your friend. You're focusing on what's important (the visa requirements) and hiding the complexities or non-essential aspects.
+
+
+    ##Design Principles:
+
+        1.Single responsbility principle:
+
+            --Each aspect of the trip planning has a single responsibility. For instance, gathering visa requirements, securing important documents, and packing items are handled as separate responsibilities. This ensures that each task is focused and manageable.
+
+        2.close and open principle:
+
+            --The itinerary is designed to be open for extension (adding new travel information) but closed for modification (the existing plan remains unchanged). If new visa requirements or travel details arise, they can be added without altering the already established itinerary.
+
+        3.Liskov Substitution principle:
+
+            --The information about visa requirements can be substituted with information about any other essential aspect of the trip (e.g., weather conditions, emergency contacts) without affecting the overall structure or function of the trip planning process.
+
+        4.Interface seggregation principle:
+
+            --The itinerary design ensures that the interfaces or interactions with different aspects of the trip (packing, visa requirements, information gathering) are specific and focused. Each aspect has its dedicated interface, avoiding unnecessary dependencies or interactions.
+
+        5.dependency inversion principle:
+
+            --The itinerary design promotes dependency inversion by ensuring that high-level modules (e.g., trip planning) do not depend on low-level details (e.g., specific visa requirements). Instead, both high-level and low-level modules depend on abstractions (essential travel information), promoting flexibility and adaptability in the design.

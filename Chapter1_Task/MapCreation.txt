@@ -1,0 +1,42 @@
+1. Map Creation: Think of a real-world system, like a library or a shopping mall. How would you model it
+using OOP concepts? What are the objects, their attributes, and behaviors? How do they interact?
+
+##Map creation for Library
+
+        1.Encapsulation:
+
+            --Imagine being in charge of a library. Your job is to organize and manage all the books. People can come and read the books, but they can't see all the nitty-gritty details of each book, like its private information.
+                
+                ##Attributes:
+                        --The books in the library are like the belongings. Each book has its own unique information, but we keep it private.
+                ##Methods:
+                        --People who want to read a book can borrow it and return it, but they can't snoop into all the details of the book. We make sure that the book's private info is safe from prying eyes.
+
+        2.Inheritence:
+
+            --If we have other types of books we could have a superclass called Book with general attributes and methods, and then create subclasses like MotivationalBook inheriting from Book, allowing for specific attributes and methods related to motivational books. This way, common functionalities are shared while allowing for specialization.
+            
+                ##Attributes:
+                    --Behavior to select and list 4 initial motivational books based on online research before visiting the library
+                ##Methods:
+                    --Action to visit the library to explore available books.
+
+        3.Polymorphism:
+
+            --In that library you will go to library section and you will see lot more books if you compare one to other books common thing is comedy but authors are different.so that you can find different forms  of books and different forms of authors but main purpose comedy is same 
+        
+                ##Attributes:
+                    --A collection representing different genres of books available in the library.
+                ##Methods:
+                    --Action to search for books based on specific criteria, like genre or author.
+
+        4.Abstraction:
+
+            --In library you can  see all kind of books and all forms of books in library.but you never be focus on how that book manufactured and who bring that and all the process. It is not necessary buying book in library
+
+                ##Attributes:
+                    --Books, their types, and forms are essential characteristics you're focusing on in the library.
+                ##Methods:
+                    --The manufacturing process, origin, and specific details of the book's creation are unnecessary and hidden (abstraction).
+
+
