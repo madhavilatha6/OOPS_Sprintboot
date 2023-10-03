@@ -1,4 +1,6 @@
-// package Chapter3_Task;
+// 2. Traveler’s Record:
+// • Design a record named TravelerInfo that captures a traveler’s name, destination, and travel date.
+// • Instantiate this record with your details and print out the information.
 
 public class TravelersRecord {
     private String name;
